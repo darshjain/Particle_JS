@@ -7,15 +7,23 @@ body {
   position: absolute;
   text-align: center;
   top: 30%;
-  width: 100%;
+  left: 40%;
+  /* width: fit-content; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .heading h1 {
   color: white;
   font-size: 70px;
+  align-self: center;
+  text-align: center;
 }
 .heading h3 {
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 #particles-js {
   background-color: black;
